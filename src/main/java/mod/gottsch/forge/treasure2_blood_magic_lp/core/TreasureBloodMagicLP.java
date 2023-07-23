@@ -10,9 +10,8 @@ import com.someguyssoftware.gottschcore.mod.AbstractMod;
 import com.someguyssoftware.gottschcore.mod.IMod;
 import com.someguyssoftware.gottschcore.version.BuildVersion;
 import com.someguyssoftware.treasure2.api.TreasureApi;
-import com.someguyssoftware.treasure2.eventhandler.WorldEventHandler;
 
-import net.minecraftforge.common.MinecraftForge;
+import mod.gottsch.forge.treasure2_blood_magic_lp.core.config.ModConfig;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;

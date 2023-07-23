@@ -1,0 +1,135 @@
+{
+  "version" : "1.0",
+  "categories" : [ "general" ],
+  "pools" : [ {
+    "name" : "blood_magic_rare",
+    "rolls" : 1,
+    "entries" : [ {
+      "type" : "item",
+      "name" : "bloodmagic:demonCrystal.default",
+      "entryName" : "demonCrystal.default",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 15
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:orb.magician",
+      "entryName" : "orb.magician",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 20
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:orb.master",
+      "entryName" : "orb.master",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 1
+        }
+      } ],
+      "weight" : 40
+    },{
+      "type" : "item",
+      "name" : "bloodmagic:orb.archmage",
+      "entryName" : "orb.archmage",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 1
+        }
+      } ],
+      "weight" : 20
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:soulGem.petty",
+      "entryName" : "soulGem.petty",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 1
+        }
+      } ],
+      "weight" : 10
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:soulGem.common",
+      "entryName" : "soulGem.common",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 1
+        }
+      } ],
+      "weight" : 20
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:soulGem.greater",
+      "entryName" : "soulGem.greater",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 1
+        }
+      } ],
+      "weight" : 10
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:lavaCrystal",
+      "entryName" : "lavaCrystal",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : 1
+      } ],
+      "weight" : 10
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:sentientSword",
+      "entryName" : "sentientSword",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : 1
+      } ],
+      "weight" : 20
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:slate.demonic",
+      "entryName" : "slate.demonic",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 20
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:slate.ethereal",
+      "entryName" : "slate.ethereal",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 10
+    } ]
+  } ]
+}

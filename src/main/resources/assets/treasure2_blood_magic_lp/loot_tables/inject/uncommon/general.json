@@ -1,0 +1,93 @@
+{
+  "version" : "1.0",
+  "categories" : [ "general" ],
+  "pools" : [ {
+    "name" : "blood_magic_uncommon",
+    "rolls" : 1,
+    "entries" : [ {
+      "type" : "item",
+      "name" : "bloodmagic:soulSnare",
+      "entryName" : "soulSnare",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 50
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:demonCrystal.default",
+      "entryName" : "demonCrystal.default",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 45
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:orb.weak",
+      "entryName" : "orb.weak",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 50
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:orb.apprentice",
+      "entryName" : "orb.apprentice",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 40
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:soulGem.petty",
+      "entryName" : "soulGem.petty",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 10
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:slate.blank",
+      "entryName" : "slate.blank",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 20
+    }, {
+      "type" : "item",
+      "name" : "bloodmagic:slate.reinforced",
+      "entryName" : "slate.reinforced",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 10
+    }]
+  } ]
+}
